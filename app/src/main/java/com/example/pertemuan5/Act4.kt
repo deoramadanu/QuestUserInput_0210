@@ -113,6 +113,11 @@ fun FormDataDiri(modifier: Modifier) {
                                     .width(300.dp)
                             ){
                                 // Konten di dalam card akan ditambahkan di commit berikutnya
+                                Column (modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp)){
+                                    Text(text = "Nama : " + nama, color = Color.White)
+                                    Text(text = "Gender : " + jenis, color = Color.White)
+                                    // Teks alamat menyusul
+                                }
                             }
                         }
                     }
